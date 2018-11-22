@@ -7,7 +7,7 @@
   "static/js/1.eceadc2d.chunk.js.map": "/PokedexReact/static/js/1.eceadc2d.chunk.js.map",
   "runtime~main.js": "/PokedexReact/static/js/runtime~main.8dc39016.js",
   "runtime~main.js.map": "/PokedexReact/static/js/runtime~main.8dc39016.js.map",
-  "static/media/mdb.css": "/PokedexReact/static/media/Roboto-Bold.e31fcf18.ttf",
+  "static/media/mdb.css": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf",
   "static/media/Ditto.png": "/PokedexReact/static/media/Ditto.7862047a.png",
   "static/media/index.css": "/PokedexReact/static/media/pokemon_solid-webfont.941fb0c4.woff",
   "static/media/logo.png": "/PokedexReact/static/media/logo.6f1fd446.png",
@@ -16,6 +16,6 @@
   "static/css/main.a45bb14c.chunk.css.map": "/PokedexReact/static/css/main.a45bb14c.chunk.css.map",
   "static/css/1.421fff57.chunk.css.map": "/PokedexReact/static/css/1.421fff57.chunk.css.map",
   "index.html": "/PokedexReact/index.html",
-  "precache-manifest.9d6c243a15bda6c8503c3c6d2cb7bf5e.js": "/PokedexReact/precache-manifest.9d6c243a15bda6c8503c3c6d2cb7bf5e.js",
+  "precache-manifest.1d68a7e72706f918329dfc525d4dda81.js": "/PokedexReact/precache-manifest.1d68a7e72706f918329dfc525d4dda81.js",
   "service-worker.js": "/PokedexReact/service-worker.js"
 }
