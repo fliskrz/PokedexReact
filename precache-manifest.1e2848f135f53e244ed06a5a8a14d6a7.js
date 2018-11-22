@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "3fbf406926aa4bdcb07d",
+    "revision": "01daae7025d8b57d6632",
     "url": "/PokedexReact/static/css/main.a45bb14c.chunk.css"
   },
   {
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "3fbf406926aa4bdcb07d",
-    "url": "/PokedexReact/static/js/main.3fbf4069.chunk.js"
+    "revision": "01daae7025d8b57d6632",
+    "url": "/PokedexReact/static/js/main.01daae70.chunk.js"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -132,27 +132,27 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/PokedexReact/static/media/Roboto-Light.46e48ce0.ttf"
-  },
-  {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/PokedexReact/static/media/Roboto-Thin.94998475.ttf"
-  },
-  {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/PokedexReact/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/PokedexReact/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
     "revision": "eceadc2d5997bb8a13eb",
     "url": "/PokedexReact/static/css/1.421fff57.chunk.css"
   },
   {
-    "revision": "3c0ac934cd8057256cd213966da345c4",
+    "revision": "f152eb41843e561b49c8a3c25bf4a258",
     "url": "/PokedexReact/index.html"
   }
 ];
