@@ -41,7 +41,7 @@ class Header2 extends React.Component {
                     </div>
                     <form onSubmit={this.handleSubmit} className="form">
                         <label htmlFor="name">Enter Pokemon name:</label>
-                        <input type="text" id="name" placeholder="Enter Pokemon name" className="form-input" onChange={e => this.setState({val: e.target.value})} />
+                        <input type="text" id="name" className="form-input" onChange={e => this.setState({val: e.target.value})} />
                         <button type="submit" className="form-btn">Search</button>
                     </form>
                 </div>
