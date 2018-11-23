@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "3824c4af44d89aab5a09",
+    "revision": "c3de56b47c7bbd871b9a",
     "url": "/PokedexReact/static/css/main.a45bb14c.chunk.css"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/PokedexReact/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "eceadc2d5997bb8a13eb",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
-    "revision": "3824c4af44d89aab5a09",
-    "url": "/PokedexReact/static/js/main.3824c4af.chunk.js"
+    "revision": "c3de56b47c7bbd871b9a",
+    "url": "/PokedexReact/static/js/main.c3de56b4.chunk.js"
   },
   {
     "revision": "30799efa5bf74129468ad4e257551dc3",
@@ -132,27 +132,27 @@ self.__precacheManifest = [
     "url": "/PokedexReact/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/PokedexReact/static/media/Roboto-Thin.94998475.ttf"
+  },
+  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/PokedexReact/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/PokedexReact/static/media/Roboto-Thin.94998475.ttf"
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/PokedexReact/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
     "revision": "df7b648ce5356ea1ebce435b3459fd60",
     "url": "/PokedexReact/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf"
-  },
-  {
     "revision": "eceadc2d5997bb8a13eb",
     "url": "/PokedexReact/static/css/1.421fff57.chunk.css"
   },
   {
-    "revision": "ded60a3458df3911e98c1a171b44f368",
+    "revision": "2eb44fe175b07d9f4be0fcdf59891e32",
     "url": "/PokedexReact/index.html"
   }
 ];

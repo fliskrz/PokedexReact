@@ -1,13 +1,13 @@
 {
   "main.css": "/PokedexReact/static/css/main.a45bb14c.chunk.css",
-  "main.js": "/PokedexReact/static/js/main.3824c4af.chunk.js",
-  "main.js.map": "/PokedexReact/static/js/main.3824c4af.chunk.js.map",
+  "main.js": "/PokedexReact/static/js/main.c3de56b4.chunk.js",
+  "main.js.map": "/PokedexReact/static/js/main.c3de56b4.chunk.js.map",
   "static/css/1.421fff57.chunk.css": "/PokedexReact/static/css/1.421fff57.chunk.css",
   "static/js/1.eceadc2d.chunk.js": "/PokedexReact/static/js/1.eceadc2d.chunk.js",
   "static/js/1.eceadc2d.chunk.js.map": "/PokedexReact/static/js/1.eceadc2d.chunk.js.map",
   "runtime~main.js": "/PokedexReact/static/js/runtime~main.8dc39016.js",
   "runtime~main.js.map": "/PokedexReact/static/js/runtime~main.8dc39016.js.map",
-  "static/media/mdb.css": "/PokedexReact/static/media/Roboto-Bold.e31fcf18.ttf",
+  "static/media/mdb.css": "/PokedexReact/static/media/Roboto-Medium.894a2ede.ttf",
   "static/media/Ditto.png": "/PokedexReact/static/media/Ditto.7862047a.png",
   "static/media/index.css": "/PokedexReact/static/media/pokemon_solid-webfont.326cf449.woff2",
   "static/media/logo.png": "/PokedexReact/static/media/logo.6f1fd446.png",
@@ -16,6 +16,6 @@
   "static/css/main.a45bb14c.chunk.css.map": "/PokedexReact/static/css/main.a45bb14c.chunk.css.map",
   "static/css/1.421fff57.chunk.css.map": "/PokedexReact/static/css/1.421fff57.chunk.css.map",
   "index.html": "/PokedexReact/index.html",
-  "precache-manifest.97dfa039a43763618c1a9f34a1909394.js": "/PokedexReact/precache-manifest.97dfa039a43763618c1a9f34a1909394.js",
+  "precache-manifest.cd3ade5d8bdc82a891e99bbb7ed41ec9.js": "/PokedexReact/precache-manifest.cd3ade5d8bdc82a891e99bbb7ed41ec9.js",
   "service-worker.js": "/PokedexReact/service-worker.js"
 }
