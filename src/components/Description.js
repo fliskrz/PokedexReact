@@ -16,10 +16,18 @@ class Description extends React.Component {
         if(this.props.pokeEvo && this.props.pokeData){
 
             let evo = null;
+            let evo2 = '';
             if(this.props.pokeEvo.chain.evolves_to.length === 0){
                 evo = `Doesn't evolve from or into any known pokemon.`
             }else{
-                evo = `${this.capitalize(this.props.pokeEvo.chain.species.name)} > ${this.capitalize(this.props.pokeEvo.chain.evolves_to[0].species.name)}`;
+
+                evo = `${this.capitalize(this.props.pokeEvo.chain.species.name)}`;
+
+                this.props.pokeEvo.chain.evolves_to.forEach(e => {
+                    evo2 = `${evo2} / ${this.capitalize(e.species.name)}` 
+                })
+                evo = `${evo} > ${evo2}`;
+
                 if(this.props.pokeEvo.chain.evolves_to[0].evolves_to.length>0){
                     evo = `${evo} > ${this.capitalize(this.props.pokeEvo.chain.evolves_to[0].evolves_to[0].species.name)}`
                 }
@@ -40,12 +48,12 @@ class Description extends React.Component {
             
 
             return (
-                <div className='container'>
+                <div className='container' style={{justifyContent:'space-between'}}>
                 <div style={{width:'40%', display:'flex', flexDirection:'column'}}>
                     <span>Evolution chain: {evo}</span>
                     <span>Types: {types} </span>
                 </div>
-                <div style={{width:'60%'}} >
+                <div style={{width:'50%'}} >
                     <span>Description: {description}</span>
                 </div>
                 </div>
