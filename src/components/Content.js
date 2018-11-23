@@ -24,7 +24,7 @@ class Content extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        if(this.props.pokemon.includes(e.currentTarget.querySelector('input').value).toLowerCase()){
+        if(this.props.pokemon.includes(e.currentTarget.querySelector('input').value.toLowerCase())){
             this.props.searchFnc(this.state.val);
         }else{
             this.setState({
