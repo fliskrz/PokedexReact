@@ -70,7 +70,7 @@ class Content extends React.Component {
                             
                         </div>
                     </div>
-                    <Description pokeEvo={this.props.pokeEvo} pokeData={this.props.pokeData}/>
+                    <Description descData={this.props.descData} pokeEvo={this.props.pokeEvo} pokeData={this.props.pokeData}/>
                  </div>
                  </>
             )

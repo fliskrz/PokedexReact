@@ -13,7 +13,8 @@ class App extends React.Component {
             pokeData:'',
             pokeEvo:'',
             pokemon: [],
-            image: ''
+            image: '',
+            pokeDescData:''
         }
         this.pokeNames = (() =>
         axios.get(`https://pokeapi.co/api/v2/pokemon/`)
@@ -43,6 +44,9 @@ class App extends React.Component {
 
         axios.get(`https://pokeapi.co/api/v2/pokemon-species/${text.toLowerCase()}/`)
         .then((res) => {
+            this.setState({
+                pokeDescData: res.data
+            })
             return axios.get(res.data.evolution_chain.url)
         })
         .then((data) => {
@@ -68,7 +72,7 @@ class App extends React.Component {
             return (
                 <>
                     <Header2 pokemon={this.state.pokemon} searchFnc={this.getData}/>
-                    <Content pokemon={this.state.pokemon} img={this.state.image} searchFnc={this.getData} pokeEvo={this.state.pokeEvo} pokeData={this.state.pokeData} name={this.state.pokeName}/>
+                    <Content descData={this.state.pokeDescData} pokemon={this.state.pokemon} img={this.state.image} searchFnc={this.getData} pokeEvo={this.state.pokeEvo} pokeData={this.state.pokeData} name={this.state.pokeName}/>
                 </>
             )
         }else{

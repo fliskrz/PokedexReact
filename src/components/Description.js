@@ -26,13 +26,30 @@ class Description extends React.Component {
             }
 
             let types = this.props.pokeData.types.map(e => e.type.name).join(' / ')
+            
+
+            let descArr = this.props.descData.flavor_text_entries;
+            let description = null;
+            console.log(descArr);
+            descArr.forEach(e => {
+                if(e.language.name === 'en'){
+                    description = e.flavor_text
+                }
+            })
+            
+            
 
             return (
-                
-                <div style={{display:'flex',alignItems:'center', flexDirection:'column'}}>
+                <div className='container'>
+                <div style={{width:'40%', display:'flex', flexDirection:'column'}}>
                     <span>Evolution chain: {evo}</span>
                     <span>Types: {types} </span>
                 </div>
+                <div style={{width:'60%'}} >
+                    <span>Description: {description}</span>
+                </div>
+                </div>
+                
                 
             )
         }else{return null}
